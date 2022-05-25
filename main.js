@@ -143,13 +143,12 @@
 //     bugName:prompt("the bug name"),
 //     bugType:prompt("what type of bug is this?"),
 //     numOfFeet:+prompt("how many legs he have?"),
-//     wings:prompt("does he have wings?yes or no?")
+//     wings:confirm("does he have wings?yes or no?")
 //    }
-//    if(bug.wings=="yes"){
+//    if(bug.wings){
 //      document.write("<h3>"+" "+bug.bugName+" "+bug.bugType+" "+bug.numOfFeet+" "+bug.wings+"</h3>")
 //    }
 //  }
-
 // }
 // getBugName(prompt("enter num of bug"))
 
@@ -168,7 +167,6 @@
 //     document.write("<p>"+" "+kid.fullName+" "+kid.age+" "+kid.kiddengarten)
 //   }
 //   }
-
 // }
 // getNumOfKids(prompt("how many kids you got?"))
 
@@ -245,19 +243,39 @@
 
 
 
-function fromUser(numUser) {
-  var pushCity=[]
-  for(var i=0;i < numUser;i++){
-      var state={
-    stataName:prompt("what the country name?"),
-    numOfPplInTheCountry:prompt("how many people does the countru have?"),
-    arrayCities:prompt("what city you have in these towns?"),
-    beitChabad:confirm("does you have beit chabad?")
-  }
-  pushCity.push(state.arrayCities)
-  if(state.beitChabad==true){
-    document.write(state.stataName+"<br>"+pushCity)
-  }
-}
- }
- fromUser(prompt("enter num"))
+// function fromUser(numUser) {
+//   var pushCity=[]
+//   for(var i=0;i < numUser;i++){
+//       var state={
+//     stataName:prompt("what the country name?"),
+//     numOfPplInTheCountry:prompt("how many people does the countru have?"),
+//     arrayCities:prompt("what city you have in these towns?"),
+//     beitChabad:confirm("does you have beit chabad?")
+//   }
+//   pushCity.push(state.arrayCities)
+//   if(state.beitChabad==true){
+//     document.write("<h1>"+state.stataName+"</h1>"+" "+"<br>"+pushCity)
+//   }
+// }
+//  }
+//  fromUser(prompt("enter num"))
+
+
+
+
+
+
+
+// function makeVideo(fromUser) {
+// for(var i =0; i < fromUser; i++){
+//   var movie={
+//     movieName:prompt("what's the movie name?"),
+//     movieViews:prompt("how many views the movie have?"),
+//     movieYear:prompt("what year the movie was realesd?"),
+//     pig:document.getElementById(img1)
+//   }
+// }
+// document.write("<h2>"+movie.movieName+" "+movie.movieViews+" "+movie.movieYear+" "+movie.moviePic+"</h2>")
+// }
+// makeVideo(prompt("enter how many time please."))
+
