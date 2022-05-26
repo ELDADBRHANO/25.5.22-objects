@@ -241,8 +241,6 @@
 
 
 
-
-
 // function fromUser(numUser) {
 //   var pushCity=[]
 //   for(var i=0;i < numUser;i++){
