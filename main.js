@@ -191,10 +191,10 @@
 //   for(var i=0; i < num; i++){
 //     var techer={
 //       fullName:prompt("enter your full name please"),
-//       hourSalary:confirm("does you make more than 100 shekel per hour?"),
-//       yearOfBirth:confirm("does you born under the year of 1990?")
+//       hourSalary:prompt("does you make more than 100 shekel per hour?"),
+//       yearOfBirth:prompt("does you born under the year of 1990?")
 //     }
-//     if(techer.hourSalary || techer.yearOfBirth){
+//     if(techer.hourSalary > 100 || techer.yearOfBirth > 1990){
 //       document.write("<span>"+" "+techer.fullName+" "+techer.hourSalary+" "+techer.yearOfBirth+"</span>")
 //     }
 //   }
