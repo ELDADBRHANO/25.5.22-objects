@@ -194,12 +194,12 @@
 //       hourSalary:confirm("does you make more than 100 shekel per hour?"),
 //       yearOfBirth:confirm("does you born under the year of 1990?")
 //     }
-//     if(techer.hourSalary && techer.yearOfBirth){
+//     if(techer.hourSalary || techer.yearOfBirth){
 //       document.write("<span>"+" "+techer.fullName+" "+techer.hourSalary+" "+techer.yearOfBirth+"</span>")
 //     }
 //   }
 // }
-// teachers(2)
+// teachers(prompt("enter number of teachers please"))
 
 
 
@@ -233,7 +233,7 @@
 //       middelMan:confirm("does the APA has middel man?")
 //     }
 //     if(apa.middelMan==false){
-//       document.write(apa.addres+"<br>"+apa.howMuchAreINtrested)
+//       document.write("<h3>"+apa["addres"]+"</h3>"+"<br>"+apa["howMuchAreINtrested"])
 //     }
 //   }
 // }
